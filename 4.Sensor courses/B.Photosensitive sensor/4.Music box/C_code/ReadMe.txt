@@ -1,0 +1,1 @@
+We need to add the SCoop library to the Arduino IDE. For details, please refer to [1.Preparation before class]---[2.About Arduino IDE programming]---[3.Arduino IDE add library file]
