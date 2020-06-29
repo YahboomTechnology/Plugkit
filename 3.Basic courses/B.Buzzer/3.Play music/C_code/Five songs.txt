@@ -1,0 +1,114 @@
+1.Childhood
+int tune[]=                 //List each frequency according to the notation
+{
+NTC3, NTC5, NTC5, NTC3, NTC6, NTC6, NTC7, NTC6, NTC6, NTC6, NTC5, NTCH1, NTCH1, NTCH1, NTCH1, NTC6,
+ NTCH1, NTC6, NTC5, 
+
+NTC3, NTC5, NTC5, NTC5, NTC3, NTC6, NTC6, NTC7, NTC6, NTC6, NTC6, NTC5, NTCH1, NTCH1, NTCH1,
+ NTCH1, NTC6, NTC6, NTCH1,NTCH2, 
+
+NTCH5, NTCH5, NTCH5, NTCH5,NTCH5, NTCH3, NTCH2, NTCH1, NTCH1, NTC6, NTCH1, NTC6, NTCH1, NTCH2,
+  NTCH2, NTCH2, NTCH2,NTCH2, NTCH1, NTCH3, NTCH2, NTCH2, 
+
+NTCH3, NTCH3, NTCH3, NTCH3, NTCH2, NTCH2, NTCH1, NTCH1, NTCH1, NTCH2, NTCH1, NTC6, NTC5, NTC5, 
+ NTC5, NTC5, NTC6, NTC5,NTCH2, NTCH3,NTCH1,
+ 
+};
+float durt[]=                   //List each durt according to the notation
+{
+0.5, 0.5, 1.5, 0.5, 0.5, 0.5, 0.5, 1, 0.5, 0.5, 0.5, 1, 0.5, 0.5, 0.5, 0.5,
+  0.5, 0.5, 2,
+ 
+0.5, 0.5, 1, 0.5, 0.5, 0.5, 0.5, 0.5, 1, 0.5, 0.5, 0.5, 1, 0.5, 0.5, 
+  0.5, 0.5, 0.5, 0.5, 2,
+
+0.5, 1, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1, 1, 0.5, 0.5, 0.5, 1, 0.25,
+  0.5, 0.5, 0.5, 0.5, 1, 0.25, 2, 
+
+0.5, 1, 0.5, 0.5, 0.5, 1, 0.5, 1, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1, 
+ 0.5, 0.5, 0.5, 0.5, 0.5, 2, 
+};
+
+
+2.Birthdy song
+int tune[]=                 //List each frequency according to the notation
+{
+NTC5, NTC5, NTC6, NTC5, NTCH1, NTC7, 
+NTC5, NTC5, NTC6, NTC5, NTCH2, NTCH1, 
+NTC5, NTC5, NTCH5, NTCH3, NTCH1, NTC7, NTC6, 
+NTCH4, NTCH4, NTCH3, NTCH1, NTCH2, NTCH1,
+};
+float durt[]=                   //List each durt according to the notation
+{
+ 0.5, 0.5, 1, 1, 1, 2,
+ 0.5, 0.5, 1, 1, 1, 2,
+ 0.5, 0.5, 1, 1, 1, 1, 2,
+ 0.5, 0.5, 1, 1, 1, 2,
+};
+
+3.Farewell
+int tune[]=                 //List each frequency according to the notation
+{
+B5, B3, B5, BH1, B6, BH1, B5, B0,
+ B5, B1, B2, B3, B2, B1, B2, B0,
+B5, B3, B5,BH1, B7, B6, BH1, B5, B0,
+ B5, B2, B3, B4, BL7, B1, B0,
+B6, BH1, B0, BH1, B7, B6, B7, BH1, B0,
+ B6, B7, BH1, B6, B0, B6, B5, B3, B1, B2, 
+};
+float durt[]=                   //List each durt according to the notation
+{ 
+1, 0.5, 0.5, 2, 1, 1, 2, 0.1,
+1, 0.5, 0.5, 1, 0.5, 0.5, 2, 0.1,
+1, 0.5, 0.5, 2, 0.5, 1, 1, 2, 0.1
+1, 0.5, 0.5, 2, 0.5, 2, 0.1, 
+1, 1, 0.1, 2, 1, 0.5, 0.5, 2, 0.1,
+0.5, 0.5, 0.5, 0.5, 0.1, 0.5, 0.5, 0.5, 0.5, 2,
+};
+
+4.ode
+int tune[]=                 //List each frequency according to the notation
+{
+NTC3, NTC3, NTC4, NTC5, NTC5, NTC4, NTC3, NTC2, NTC1, NTC1, NTC2, NTC3, NTC3,NTC2, NTC2, 
+ NTC3, NTC3, NTC4, NTC5, NTC5, NTC4, NTC3, NTC2, NTC1, NTC1, NTC2, NTC3, NTC2, NTC1, NTC1,
+NTC2, NTC2, NTC3,NTC1, NTC2, NTC3, NTC4, NTC3, NTC1, NTC2, NTC3, NTC4, NTC3, NTC2,
+
+NTC1, NTC2, NTCL5, NTC3, NTC3, NTC3, NTC4, NTC5, NTC5, NTC4, NTC3, NTC4, NTC2, NTC1, NTC1, NTC2, NTC3, 
+ NTC2, NTC1,NTC1,
+};
+
+float durt[]=             //List each durt according to the notation
+{
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 0.5, 0.5, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 2, 0.5, 0.5, 1, 1, 1, 1, 1, 0.5, 0.5, 1, 1, 1, 0.5, 0.5, 1, 1,
+0.5, 0.5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.5, 0.5, 1, 1, 1, 1, 2, 0.5, 0.5,
+};
+
+5.Midnight Serenade
+int tune[]=                 //List each frequency according to the notation
+{
+NTC3, NTC3, NTCH1, NTC7, NTCH1, NTC3, NTC3, 
+NTC3, NTC5, NTC5, NTC6, NTC4,
+NTC2, NTC2, NTC7, NTC6, NTC7, NTC2, NTC2,
+NTC2, NTC5, NTC4, NTC4, NTC4, NTC5, NTC3, 
+NTC3, NTC3, NTCH1, NTC7, NTCH1, NTCH1, NTC3,
+NTC3, NTC6, NTCH1, NTCH3, NTCH2, NTCH2, 
+NTCH1, NTCH1, NTCH1, NTC7, NTCH2,NTCH1, NTCH1, NTC7,NTC7, 
+NTC3, NTC3, NTCH1, NTC7, NTCH1, NTC3, NTC3, NTC3, NTC5, NTC5, NTC6, NTC4, 
+NTC2, NTC2, NTC7, NTC6, NTC7, NTC2, NTC2, NTC2, NTC5, NTC4, NTC4, NTC4, NTC5, NTC3,
+};
+float durt[]=                   //List each durt according to the notation
+{
+0.25, 0.25, 0.5, 0.5, 1.25, 0.5, 1,
+0.5, 0.5, 1.25, 0.5, 0.5, 
+0.25, 0.25, 0.5, 0.5, 1.25, 0.5, 0.75,
+0.25, 0.5, 0.5, 1, 0.5, 0.25, 0.25, 
+0.25, 0.25, 0.5, 0.5, 0.75, 0.5, 0.5,
+0.5, 0.5, 0.5, 1, 0.5, 1.25,
+0.5, 0.75, 0.5, 1, 0.5, 0.25, 0.25, 0.5, 0.5, 
+0.25, 0.25, 0.5, 0.5, 1.25,0.5, 1, 
+0.5, 0.5, 1.25,  0.5, 0.5, 
+0.25, 0.25, 0.5, 0.5, 1.25, 0.5, 0.75, 
+0.25, 0.5, 0.5, 1, 0.25, 0.25, 0.5,
+0.25, 0.25, 0.5, 0.5,
+};
